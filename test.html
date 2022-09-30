@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Arrange Box</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div style="width: 30%;">
+            <div class="js-container1 container">
+                <li class="container__item js-item">1
+                    <button type="button" class="js-remove-button">delete</button>
+                </li>
+                <li class="container__item js-item">2
+                    <button type="button" class="js-remove-button">delete</button>
+                </li>
+                <li class="container__item js-item">3
+                    <button type="button" class="js-remove-button">delete</button>
+                </li>
+                <li class="container__item js-item">4
+                    <button type="button" class="js-remove-button">delete</button>
+                </li>
+                <li class="container__item js-item">5
+                    <button type="button" class="js-remove-button">delete</button>
+                </li>
+                <li class="container__item js-item">6
+                    <button type="button" class="js-remove-button">delete</button>
+                </li>
+                <li class="container__item js-item">7
+                    <button type="button" class="js-remove-button">delete</button>
+                </li>
+                <li class="container__item js-item">8
+                    <button type="button" class="js-remove-button">delete</button>
+                </li>
+                <li class="container__item js-item">9
+                    <button type="button" class="js-remove-button">delete</button>
+                </li>
+            </div>
+            <button class="button-list__item js-add-button1">Add:</button>
+            <p><input class="button-list__item js-add-text1" type="text"> </p>
+        </div>
+        <div class="button-list">
+            <button class="button-list__item js-left"><</button>
+            <button class="button-list__item js-right">></button>
+            <button class="button-list__item js-left-all"><<</button>
+            <button class="button-list__item js-right-all">>></button>
+            <b>Sort by:</b>
+            <div class="button-sort_item">
+                <button class="button-sort_item js-sort-dc">dc</button>
+                <button class="button-sort_item js-sort-asc">asc</button>
+            </div>
+            <button class="button-list__item js-find-button">Find:</button>
+            <p><input class="button-list__item js-find-text" type="text"> </p>
+
+        </div>
+        <div style="width:30%;">
+            <div class="js-container2 container">
+            </div>
+            <button class="button-list__item js-add-button2">Add:</button>
+            <p><input class="button-list__item js-add-text2" type="text"> </p>
+        </div>
+    </div>
+    <button style="width: 100px; height: 30px;">init</button>
+    <button style="width: 100px; height: 30px;">rand</button>    
+    <script src="main.js"></script>
+</body>
+</html>
